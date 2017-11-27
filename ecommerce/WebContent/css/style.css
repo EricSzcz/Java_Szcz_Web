@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+.font-34 {
+	font-size: 34px;
+	font-weight: bold;
+}
+
+table {
+	font-size: 16px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+
+table th {
+	padding-top: 11px;
+	padding-bottom: 11px;
+	background-color: #4CAF50;
+	color: white;
+}
+
+table th, td {
+	border: 1px solid #ddd;
+	text-align: left;
+	padding: 8px;
+	text-align: center;
+}
+
+table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}

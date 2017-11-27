@@ -1,0 +1,14 @@
+<taglib>
+   <tlib-version>2.0</tlib-version>
+   <jsp-version>2.0</jsp-version>
+   <short-name>quote</short-name>
+   <uri>tag lib version id</uri>
+   <description>
+   	tag para apresentação da Data e Hora
+   </description>
+   <tag>
+      <name>dataHora</name>
+      <tag-class>br.com.apex.javaweb.tag.TagDataHora</tag-class>
+      <body-content>empty</body-content>
+   </tag>
+</taglib>
